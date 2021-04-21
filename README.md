@@ -6,7 +6,6 @@
 
 100多道题，分门别类，先讲某个算法，再讲该算法下对应的力扣题目，Github标星已经80多k了。
 
-![image-20210421092430979](https://i.loli.net/2021/04/21/PNbKlQzDpcO9EoZ.png)
 
 ### [liweiwei1419](https://github.com/liweiwei1419)
 
