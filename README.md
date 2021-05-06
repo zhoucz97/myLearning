@@ -41,12 +41,12 @@
 ## GNN
 
 - [知乎—如何理解GCN？](https://www.zhihu.com/search?type=content&q=GCN)
-
+- [GCN (Graph Convolutional Network) 图卷积网络解析](https://blog.csdn.net/weixin_36474809/article/details/89316439)
+- [图注意力网络(GAT) ICLR2018, Graph Attention Network论文详解](https://blog.csdn.net/weixin_36474809/article/details/89401552)
 - [GCN作者博客解释GCN](http://tkipf.github.io/graph-convolutional-networks/)
-
 - [谱聚类原理总结](https://www.cnblogs.com/pinard/p/6221564.html)
-
-- [GCN代码实现-pytorch](https://github.com/dragen1860/GCN-PyTorch)
+- [Graph Convolutional Networks in PyTorch](https://github.com/tkipf/pygcn)
+- [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
 
 ## 其他资料
 
@@ -55,23 +55,6 @@
 - 《动手学深度学习》
   - [Tensorflow2版本](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/#/)
   - [pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
-
-
-
-# 4. 论文
-
-## 预训练语言模型
-
-- [2021AAAI the best paper: Informer](https://arxiv.org/abs/2012.07436)
-  - [2021AAAI最佳论文—Informer笔记](https://zhuanlan.zhihu.com/p/366755182)
-  - [代码地址](https://github.com/zhouhaoyi/Informer2020)
-  - [一作讲解](https://www.bilibili.com/video/BV1Ky4y1b7KS)
-
-## Aspect-based Sentiment Analysis
-
-- [2021NAACL- Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa](https://arxiv.org/abs/2104.04986)
-  - [文章讲解-细粒度情感分析：还在用各种花式GNN？或许只用RoBERTa就够了](https://zhuanlan.zhihu.com/p/366133681)
-  - [代码地址](https://github.com/ROGERDJQ/RoBERTaABSA)
 
 
 # 5. 其他
