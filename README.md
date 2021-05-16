@@ -57,7 +57,11 @@
   - [pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
 
 
-# 5. 其他
+# 4. 其他
+
+## Python
+
+- [python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
 
 ## Git
 
