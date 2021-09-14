@@ -16,12 +16,24 @@
 - 《统计学习方法》
 
   - [手写实现李航《统计学习方法》书中全部算法](https://github.com/Dod-o/Statistical-Learning-Method_Code)，非常厉害且详细，每一章都有博客讲解和对应代码，且代码力求每一行都有注释，重要部分注明公式来源。
+
+- 《神经网络与深度学习》
+  - https://nndl.github.io/
+- 《动手学深度学习》
+  - [Tensorflow2版本](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/#/)
+  - [pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
+- 深度学习圣经—**花书**
+  - 英文版原书：https://www.deeplearningbook.org/
+  - 中文版翻译：https://github.com/exacity/deeplearningbook-chinese
+  - 花书数学推导、原理剖析与源码级别代码实现：https://github.com/MingchaoZhu/DeepLearning
+  - 深度之眼花书啃书指导：https://www.bilibili.com/video/BV1kE4119726
+  - 花书各章笔记：https://zhuanlan.zhihu.com/p/38431213
 - [超容易理解的CRF讲解](https://zhuanlan.zhihu.com/p/44042528)
 - [Bert使用的激活函数：gelu---高斯误差线性单元](https://blog.csdn.net/eunicechen/article/details/84774047?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control&dist_request_id=1332024.6353.16189739587076911&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control)
 - [GELU 激活函数](https://blog.csdn.net/liruihongbob/article/details/86510622)
 - [详解准确率、精确率、召回率、F1值含义](https://blog.csdn.net/weixin_41753316/article/details/109382129)
 
-# 3. 深度学习与NLP
+# 3. NLP
 
 ## Text Classification
 
@@ -49,13 +61,9 @@
 - [Graph Convolutional Networks in PyTorch](https://github.com/tkipf/pygcn)
 - [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
 
-## 其他
 
-- 《神经网络与深度学习》
-  - https://nndl.github.io/
-- 《动手学深度学习》
-  - [Tensorflow2版本](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/#/)
-  - [pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
+
+
 
 
 # 4. 其他
