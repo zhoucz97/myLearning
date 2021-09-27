@@ -61,6 +61,10 @@
 - [Graph Convolutional Networks in PyTorch](https://github.com/tkipf/pygcn)
 - [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
 
+## Sentiment Analysis
+
+- [属性级情感分析新进展](https://github.com/zhoucz97/myLearning/blob/main/第一届情感计算大会/CCAC 2021 夏睿 属性级情感分析新进展(1).pdf)
+
 
 
 
