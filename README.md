@@ -63,7 +63,7 @@
 
 ## Sentiment Analysis
 
-- [2021属性级情感分析新进展](https://github.com/zhoucz97/myLearning/blob/main/CCAC2021夏睿属性级情感分析新进展.pdf)
+- [2021属性级情感分析新进展](https://github.com/zhoucz97/myLearning/blob/main/第一届情感计算大会/CCAC2021夏睿属性级情感分析新进展.pdf)
 
 
 
