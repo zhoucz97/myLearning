@@ -92,7 +92,7 @@
   - [一文看懂循环神经网络 RNN（2种优化算法+5个实际应用） (easyai.tech)](https://easyai.tech/ai-definition/rnn/)
   - [一文看懂 LSTM - 长短期记忆网络（基本概念+核心思路） (easyai.tech)](https://easyai.tech/ai-definition/lstm/)
   - [深度学习面试题37：LSTM Networks原理(Long Short Term Memory networks) - 黎明程序员 - 博客园 (cnblogs.com)](https://www.cnblogs.com/itmorn/p/13303155.html)
-  - [经典必读：门控循环单元（GRU）的基本概念与原理 | 机器之心 (jiqizhixin.com)](https://www.jiqizhixin.com/articles/2017-12-24#:~:text=在本文中，我们将讨论相当简单且可理解的神经网络模型：门控循环单元（GRU）。 根据 Cho, et al. 在 2014,年的介绍，GRU 旨在解决标准 RNN 中出现的梯度消失问题。 GRU 也可以被视为 LSTM 的变体，因为它们基础的理念都是相似的，且在某些情况能产生同样出色的结果。)
+  - [经典必读：门控循环单元GRU的基本概念与原理](https://www.jiqizhixin.com/articles/2017-12-24#:~:text=在本文中，我们将讨论相当简单且可理解的神经网络模型：门控循环单元（GRU）。 根据 Cho, et al. 在 2014,年的介绍，GRU 旨在解决标准 RNN 中出现的梯度消失问题。 GRU 也可以被视为 LSTM 的变体，因为它们基础的理念都是相似的，且在某些情况能产生同样出色的结果。)
 - Adam
   - [简单认识Adam优化器 - 简书 (jianshu.com)](https://www.jianshu.com/p/aebcaf8af76e)
 - 主动学习
@@ -101,7 +101,7 @@
 - 持续/增量学习
   - [增量学习(Incremental Learning)小综述 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353273834)
 - 未登陆词问题OOV
-  - [自然语言处理1：分词 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/109054674#:~:text=未登录词，一种是指已有的词表中没有收录的词，另一种是指训练语料中未曾出现过的词。 而后一种含义也可以被称作集外词，OOV（out,of vocabulary），即训练集以外的词。)
+  - [自然语言处理1：分词 - 知乎](https://zhuanlan.zhihu.com/p/109054674)
   - 未登录词识别，NER
   - word2vec中，给未登录词一个随机初始化的向量；
   - 预训练语言模型中，统一当成【UNK】来处理；
