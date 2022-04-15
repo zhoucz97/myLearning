@@ -1,6 +1,6 @@
 > 个人学习历程，持续更新中......
 
-# 1. 算法
+# 1. 刷题
 
 - [labuladong的算法小抄](https://github.com/labuladong/fucking-algorithm)。100多道题，分门别类，先讲某个算法，再讲该算法下对应的力扣题目，Github标星已经80多k了。
 - [liweiwei1419](https://github.com/liweiwei1419)。威威哥，长期活跃在力扣社区，为力扣官方贡献了大量的优质题解。[liweiwei个人博客](https://liweiwei1419.gitee.io/leetcode-algo/about/)，[liweiwei力扣主页](https://leetcode-cn.com/u/liweiwei1419/)
@@ -33,7 +33,101 @@
 - [GELU 激活函数](https://blog.csdn.net/liruihongbob/article/details/86510622)
 - [详解准确率、精确率、召回率、F1值含义](https://blog.csdn.net/weixin_41753316/article/details/109382129)
 
-# 3. NLP
+- 过拟合问题
+
+  - 解决方式：加大数据量、降低模型复杂度、Dropout、正则化、早停策略、warmup学习率、模型集成
+  - [Early Stopping - 简书 (jianshu.com)](https://www.jianshu.com/p/9ab695d91459)
+  - [深度学习技巧之Early Stopping（早停法） | 数据学习者官方网站(Datalearner)](https://www.datalearner.com/blog/1051537860479157)
+  - [生动形象告诉你神经网络的Dropout为何有效_qiuzitao的博客-CSDN博客_dropout为什么有效](https://blog.csdn.net/qiuzitao/article/details/105370129)
+  - [为什么正则化能减少模型过拟合程度_ybdesire的博客-CSDN博客](https://blog.csdn.net/ybdesire/article/details/79068603)
+  - [L1正则化与L2正则化的区别_ybdesire的博客-CSDN博客_l1正则化和l2正则化的区别](https://blog.csdn.net/ybdesire/article/details/84946128)
+
+- 数据归一化
+
+  - [如何理解归一化（normalization）? - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/424518359)
+
+  - [机器学习笔记：为什么要对数据进行归一化处理？ - 不说话的汤姆猫 - 博客园 (cnblogs.com)](https://www.cnblogs.com/silence-tommy/p/7113498.html)  
+
+  - 不同评价指标会具有不同的量纲和量纲单位，会影响数据分析的结果；也会让模型寻找最优解的过程变得不够平滑。
+
+  - 归一化可以消除奇异样本导致的不良影响，也能够加快梯度下降求最优解的速度，使模型训练过程更加平滑。
+
+  - 归一化方法
+
+    ：
+
+    - 线性比例变换法 $$x' = \frac{x}{max(x)}$$
+
+    - 极差变换法，即最大最小标准化 
+
+      $$x' = \frac{x-min(x)}{max(x) - min(x)}$$
+
+      - 适用于数值比较集中的情况，受max和min的影响较大；
+
+    - z-score标准化  
+
+      $$x' = \frac{x- \mu}{\sigma}$$
+
+      - 将数据归一化为标准正态分布
+      - 适用于需要使用距离来度量相似性的时候，或者使用PCA降维的时候。
+
+  - 需要归一化的算法和不需要归一化的算法
+
+    - 需要：基于距离计算的模型KNN；梯度下降求解的模型线性回归神经网络等。
+    - 不需要：决策树，随机森林等。
+
+- 为什么PCA不被推荐用来避免过拟合？
+
+  - 因为PCA是无监督的降维方法。
+  - [为什么PCA不被推荐用来避免过拟合_嘀嗒嘀嘀嗒嘀的博客-CSDN博客](https://blog.csdn.net/ACBattle/article/details/80011808)
+  - [(5 封私信) 为什么PCA不被推荐用来避免过拟合？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/47121788)
+
+- SVM
+
+  - [SVM算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/29862011)
+  - [机器学习算法（一）SVM_yaoyz105的博客-CSDN博客_svm](https://blog.csdn.net/qq_31347869/article/details/88071930)
+
+# 3. 深度学习
+
+- CNN, RNN, LSTM，GRU
+  - [一文看懂卷积神经网络-CNN（基本原理+独特价值+实际应用）- 产品经理的人工智能学习库 (easyai.tech)](https://easyai.tech/ai-definition/cnn/)
+  - [一文看懂循环神经网络 RNN（2种优化算法+5个实际应用） (easyai.tech)](https://easyai.tech/ai-definition/rnn/)
+  - [一文看懂 LSTM - 长短期记忆网络（基本概念+核心思路） (easyai.tech)](https://easyai.tech/ai-definition/lstm/)
+  - [深度学习面试题37：LSTM Networks原理(Long Short Term Memory networks) - 黎明程序员 - 博客园 (cnblogs.com)](https://www.cnblogs.com/itmorn/p/13303155.html)
+  - [经典必读：门控循环单元（GRU）的基本概念与原理 | 机器之心 (jiqizhixin.com)](https://www.jiqizhixin.com/articles/2017-12-24#:~:text=在本文中，我们将讨论相当简单且可理解的神经网络模型：门控循环单元（GRU）。 根据 Cho, et al. 在 2014,年的介绍，GRU 旨在解决标准 RNN 中出现的梯度消失问题。 GRU 也可以被视为 LSTM 的变体，因为它们基础的理念都是相似的，且在某些情况能产生同样出色的结果。)
+- Adam
+  - [简单认识Adam优化器 - 简书 (jianshu.com)](https://www.jianshu.com/p/aebcaf8af76e)
+- 主动学习
+  - [主动学习(Active Learning)，看这一篇就够了 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/377045943)
+  - [主动学习（Active Learning）概述及最新研究 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/422180658)
+- 持续/增量学习
+  - [增量学习(Incremental Learning)小综述 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353273834)
+- 未登陆词问题OOV
+  - [自然语言处理1：分词 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/109054674#:~:text=未登录词，一种是指已有的词表中没有收录的词，另一种是指训练语料中未曾出现过的词。 而后一种含义也可以被称作集外词，OOV（out,of vocabulary），即训练集以外的词。)
+  - 未登录词识别，NER
+  - word2vec中，给未登录词一个随机初始化的向量；
+  - 预训练语言模型中，统一当成【UNK】来处理；
+- 如何在预训练模型中融入KG知识
+  - 清华ernie：T-encoder，K-encoder；T-encoder与bert相同，K-encoder用来融入知识图谱信息。
+    - 用NER技术识别出输入序列中的实体，并与知识图谱中的实体进行对应。采用TransE将其转化为向量表示，与原本的输入序列的向量表示拼接送入K-encoder。
+  - KG与预训练模型结合的问题
+    - 结构化文本与非结构化文本；
+    - 异构特征空间的对齐；
+    - 知识噪声的解决。
+- 强化学习
+  - [深度强化学习（Deep Reinforcement Learning）入门 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/25239682)
+
+- 对比学习
+
+  - [一文梳理2020年大热的对比学习模型](https://mp.weixin.qq.com/s/6qqFAQBaOFuXtaeRSmQgsQ)
+
+  - [我分析了ACL21论文列表，发现对比学习已经... ](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247517437&idx=1&sn=9302ef9e05ad98f83eb177040d4fc7b0&chksm=970fac2ba078253dcb02f4e4ef6646961fa7e0d71d569ae0b6bf7806bbc4aa2bbe981467fc31&mpshare=1&scene=1&srcid=07267nxbZo75Fftv4595oFaR&sharer_sharetime=1627309284524&sharer_shareid=bce0786e4f1449b9738bd32da860598c&exportkey=AcNbTBQ+dsgT1D+cpQ29LSI=&pass_ticket=JLjWK5/tXz8xsSnYVv38ZkVzzOU20fUoGj+eFPLa/Lqykmsms/xwhs/t7W4wRLGW&wx_header=0#rd)
+
+
+
+
+
+# 4. NLP
 
 ## Text Classification
 
@@ -50,6 +144,23 @@
 - [从BERT, XLNet, RoBERTa到ALBERT](https://zhuanlan.zhihu.com/p/84559048)
 - [图解BERT模型](https://zhuanlan.zhihu.com/p/318495113)
 - [超细节的BERT/Transformer知识点](https://zhuanlan.zhihu.com/p/132554155)
+
+
+
+## BERT
+
+- 关于BERT
+  - [图解BERT模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/318495113)
+  - [【深度学习】BERT详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/130913995)
+  - BERT缺点
+    - 预训练和微调之间的GAP；
+    - 假设MASK掉的token是不相关的；
+    - 速度慢
+  - BERT参数量计算：
+    - [How is the number of BERT model parameters calculated? · Issue #656 · google-research/bert (github.com)](https://github.com/google-research/bert/issues/656)
+    - [BERT参数量如何计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/357353536)
+
+
 
 ## GNN
 
@@ -70,7 +181,8 @@
 
 
 
-# 4. 其他
+
+# 其他
 
 ## Python
 
