@@ -31,7 +31,7 @@
 - [超容易理解的CRF讲解](https://zhuanlan.zhihu.com/p/44042528)
 - [Bert使用的激活函数：gelu---高斯误差线性单元](https://blog.csdn.net/eunicechen/article/details/84774047?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control&dist_request_id=1332024.6353.16189739587076911&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.control)
 - [GELU 激活函数](https://blog.csdn.net/liruihongbob/article/details/86510622)
-- [详解准确率、精确率、召回率、F1值含义](https://blog.csdn.net/weixin_41753316/article/details/109382129)
+- [精确率、准确率、召回率、F1值含义及sklearn调用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/530885866)
 
 - 过拟合问题
 
