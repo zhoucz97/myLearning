@@ -9,9 +9,8 @@
 - [1.AI教程](#1-AI教程)
 - [2.AI基础知识](#2-AI基础知识)
 - [3.NLP](#3-NLP)
-- [4.AI热点/前沿](#4-AI热点/前沿)
-- [5.AI其他](#5-AI其他)
-- [6.AI之外](#6-AI之外)
+- [4.AI其他](#4-AI其他)
+- [5.AI之外](#5-AI之外)
 
 
 
@@ -19,12 +18,16 @@
 
 # 1. AI教程
 
-- CS229
-
+- **【机器学习必看】**—吴恩达Stanford CS229
+  - [CS229: Machine Learning (stanford.edu)](https://cs229.stanford.edu/)
   - [CS229 课程讲义中文翻译](https://github.com/Kivy-CN/Stanford-CS-229-CN)
   - [个人整理的229资料](https://github.com/zhoucz97/CS229)，主要是08年和18年吴恩达的。
-- 《统计学习方法》
+  
+- **【强推】**李宏毅人工智能课
+  - [Bilibili-2021/2022春机器学习课程](https://www.bilibili.com/video/BV1Wv411h7kN/?p=1&vd_source=a0cdcca7d567da626e54d50523fa551c)
+  - [李宏毅老师YouTube频道](https://www.youtube.com/c/HungyiLeeNTU)，包括机器学习、自然语言处理、GAN、强化学习等一系列课程。
 
+- **【机器学习经典书籍】**—《统计学习方法》
   - [手写实现李航《统计学习方法》书中全部算法](https://github.com/Dod-o/Statistical-Learning-Method_Code)，非常厉害且详细，每一章都有博客讲解和对应代码，且代码力求每一行都有注释，重要部分注明公式来源。
 - 《神经网络与深度学习》
   - https://nndl.github.io/
@@ -37,8 +40,7 @@
   - 花书数学推导、原理剖析与源码级别代码实现：https://github.com/MingchaoZhu/DeepLearning
   - 深度之眼花书啃书指导：https://www.bilibili.com/video/BV1kE4119726
   - 花书各章笔记：https://zhuanlan.zhihu.com/p/38431213
-- CS224N
-  - 入门NLP**必看**
+- **【NLP必看】**—Stanford CS224N
   - [Stanford CS 224N | Natural Language Processing with Deep Learning](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1214/)
   - 作业：[parachutel/cs224n-stanford-winter2021: Stanford Winter 2021 (github.com)](https://github.com/parachutel/cs224n-stanford-winter2021)
 
@@ -53,6 +55,7 @@
 - **评价指标**
 
   - [精确率、准确率、召回率、F1值含义及sklearn调用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/530885866)
+  - [三种F1指标](https://blog.csdn.net/weixin_48185819/article/details/108195540)
 
 - **过拟合问题**
 
@@ -216,17 +219,7 @@
 
 
 
-
-
-# 4. AI热点/前沿
-
-- [从VAE到扩散模型：一文解读以文生图新范式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/519415802)
-
-
-
-
-
-# 5. AI其他
+# 4. AI其他
 
 ## GNN
 
@@ -238,11 +231,13 @@
 - [Graph Convolutional Networks in PyTorch](https://github.com/tkipf/pygcn)
 - [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
 
+## 扩散模型
+
+- [从VAE到扩散模型：一文解读以文生图新范式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/519415802)
 
 
 
-
-# 6. AI之外
+# 5. AI之外
 
 ## 算法题
 
@@ -254,6 +249,7 @@
 ## Python
 
 - [python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
+- [10分钟教程掌握Python调试器pdb - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37294138)
 
 ## Git
 
@@ -271,3 +267,7 @@
 ## Conda
 
 - [Conda常用命令合集](https://zhuanlan.zhihu.com/p/363904808)
+
+## 服务器
+
+- [一文助你打通 tmux - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102546608)
