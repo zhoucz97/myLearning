@@ -153,12 +153,13 @@
   - [深度强化学习（Deep Reinforcement Learning）入门 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/25239682)
 
 - **对比学习**
+  
   - [图解SimCLR框架，用对比学习得到一个好的视觉预训练模型-CSDN博客](https://blog.csdn.net/u011984148/article/details/106233313/)
-
+  
   - [一文梳理2020年大热的对比学习模型](https://mp.weixin.qq.com/s/6qqFAQBaOFuXtaeRSmQgsQ)
-
+  
   - [我分析了ACL21论文列表，发现对比学习已经... ](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247517437&idx=1&sn=9302ef9e05ad98f83eb177040d4fc7b0&chksm=970fac2ba078253dcb02f4e4ef6646961fa7e0d71d569ae0b6bf7806bbc4aa2bbe981467fc31&mpshare=1&scene=1&srcid=07267nxbZo75Fftv4595oFaR&sharer_sharetime=1627309284524&sharer_shareid=bce0786e4f1449b9738bd32da860598c&exportkey=AcNbTBQ+dsgT1D+cpQ29LSI=&pass_ticket=JLjWK5/tXz8xsSnYVv38ZkVzzOU20fUoGj+eFPLa/Lqykmsms/xwhs/t7W4wRLGW&wx_header=0#rd)
-
+  
 - **Normalization**
 
   - BatchNorm:
@@ -173,6 +174,12 @@
     - [BatchNorm与LayerNorm的异同 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/428620330)
 
   - [各种Normalization - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/86765356)
+  
+- **霍普菲尔德网络**
+
+  - [Hopfield网络的基本 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/116908556)
+  - [最简单的神经网络：霍普菲尔德神经网络 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/370000751)
+
 
 
 
@@ -216,6 +223,7 @@
 - 情绪溯源paper reading list: [zhoucz97/ECA-Reading-List](https://github.com/zhoucz97/ECA-Reading-List)
 - [CCAC 前沿趋势报告-文本情感计算新进展 (qq.com)](https://mp.weixin.qq.com/s/NNiqjoPzC9Eozpy0LGVgkw)
 - [CCAC 2022 讲习班-情感分析基础与前沿 (qq.com)](https://mp.weixin.qq.com/s/u7tSBF2Im4IAabJpzJNicA)
+- **[情感词库构建代表工作详解](https://mp.weixin.qq.com/s/mefUYQnTn8vdWV78c9lRBw)**
 
 
 
@@ -230,6 +238,7 @@
 - [谱聚类原理总结](https://www.cnblogs.com/pinard/p/6221564.html)
 - [Graph Convolutional Networks in PyTorch](https://github.com/tkipf/pygcn)
 - [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
+- **[Pytorch-Geometric(PyG)官方文档](https://mp.weixin.qq.com/s/mefUYQnTn8vdWV78c9lRBw)**
 
 ## 扩散模型
 
@@ -248,8 +257,15 @@
 
 ## Python
 
-- [python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
-- [10分钟教程掌握Python调试器pdb - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37294138)
+- Logging：[python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
+- 调试器Pdb：[10分钟教程掌握Python调试器pdb - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37294138)
+
+## Pytorch
+
+- 冻结参数
+  - [ pytorch网络冻结的三种方法区别：detach、requires_grad、with_no_grad_shuttle6的博客-CSDN博客_pytorch冻结网络层](https://blog.csdn.net/weixin_42855362/article/details/127284573)
+  - [pytorch 冻结某些层参数不训练 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/65105409)
+- 
 
 ## Git
 
