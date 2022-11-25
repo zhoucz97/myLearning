@@ -260,12 +260,42 @@
 - Logging：[python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
 - 调试器Pdb：[10分钟教程掌握Python调试器pdb - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37294138)
 
+
+
 ## Pytorch
 
 - 冻结参数
   - [ pytorch网络冻结的三种方法区别：detach、requires_grad、with_no_grad_shuttle6的博客-CSDN博客_pytorch冻结网络层](https://blog.csdn.net/weixin_42855362/article/details/127284573)
   - [pytorch 冻结某些层参数不训练 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/65105409)
-- 
+- **手动下载Pytorch**
+  - 官方源：https://download.pytorch.org/whl/torch_stable.html
+  - 清华源：[Index of /anaconda/cloud/pytorch/linux-64/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/)
+
+
+
+
+## 服务器
+
+- **tmux**
+
+  -  [一文助你打通 tmux - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102546608)
+  - [Tmux 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+
+- **nohup**
+
+  - [服务器后台跑程序的一种方法（nohup）_Laiguibing521的博客-CSDN博客](https://blog.csdn.net/laiguibing521/article/details/90316703)
+
+- [Ubuntu登录SSH后显示欢迎消息 - 知乎](https://zhuanlan.zhihu.com/p/390518917)
+
+- **conda**
+
+  - [Conda常用命令合集](https://zhuanlan.zhihu.com/p/363904808)
+
+- **Nvidia-smi**
+
+  - [windos中查看gpu信息，以及NVIDIA-SMI命令详解_tanlangqie的博客-CSDN博客_查看gpu](https://blog.csdn.net/tanlangqie/article/details/82967296)
+
+  
 
 ## Git
 
@@ -279,11 +309,3 @@
 
 - [datawhale组队学习Docker](https://github.com/datawhalechina/team-learning-program/tree/master/Docker)
 - [《Docker从入门到实战》](https://vuepress.mirror.docker-practice.com/)
-
-## Conda
-
-- [Conda常用命令合集](https://zhuanlan.zhihu.com/p/363904808)
-
-## 服务器
-
-- [一文助你打通 tmux - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102546608)
