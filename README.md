@@ -6,17 +6,17 @@
 
 ### Contents
 
-- [1.AI教程](#1-AI教程)
-- [2.AI基础知识](#2-AI基础知识)
-- [3.NLP](#3-NLP)
-- [4.AI其他](#4-AI其他)
-- [5.AI之外](#5-AI之外)
+- [1.教程](#1-教程)
+- [2.基础知识](#2-基础知识)
+- [3.AI](#3-AI)
+- [4.论文写作](#4-写作)
+- [5.其他](#5-其他)
 
 
 
 
 
-# 1. AI教程
+# 1. 教程
 
 - **【机器学习必看】**—吴恩达Stanford CS229
   - [CS229: Machine Learning (stanford.edu)](https://cs229.stanford.edu/)
@@ -45,7 +45,7 @@
   - 作业：[parachutel/cs224n-stanford-winter2021: Stanford Winter 2021 (github.com)](https://github.com/parachutel/cs224n-stanford-winter2021)
 
 
-# 2. AI基础知识
+# 2. 基础知识
 
 - **激活函数**
 
@@ -182,9 +182,7 @@
 
 
 
-
-
-# 3. NLP
+# 3. AI
 
 ## Text Classification
 
@@ -227,7 +225,17 @@
 
 
 
-# 4. AI其他
+## ChatGPT
+
+- 官方介绍：[ChatGPT: Optimizing Language Models for Dialogue (openai.com)](https://openai.com/blog/chatgpt/)
+- demo：chat.openai.com，openai账号某宝可买。
+- [(7 封私信 / 18 条消息) 国内有类似ChatGPT能力的模型吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570713548)
+- [(7 封私信 / 18 条消息) 如何评价 ChatGPT ？会取代搜索引擎吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570062224)
+- [台大陈蕴侬：InstructGPT-ChatGPT前身，从人类回馈中学习_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18W4y1g7x4/?spm_id_from=444.41.list.card_archive.click&vd_source=a0cdcca7d567da626e54d50523fa551c)
+- 李宏毅：ChatGPT是怎么练成的？ https://mp.weixin.qq.com/s/ylY4DOcVEVWP9uFPZZ9iYw
+- 目前论文还未放出。
+
+
 
 ## GNN
 
@@ -246,7 +254,26 @@
 
 
 
-# 5. AI之外
+# 4. 写作
+
+1. OverLeaf：https://www.overleaf.com/
+2. **图表**：
+   1. Excel：
+      1. [Tip: Excel图表导出为PDF图像 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/260991352)，然后利用工具裁剪导出后的PDF，比如WPS（开会员）。
+      2. [用Excel制作Origin科研论文图（分组柱状图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/527514961)
+      3. [(6 封私信 / 1 条消息) 如何将论文图表做得漂亮？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/26983018)
+   2. Python：
+      1. [Python常用画图代码（折线图、柱状图、饼图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/345841672)
+      2. [Python 绘图，我只用 Matplotlib（三）—— 柱状图 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/47679593)
+   3. [MLNLP-World/Paper-Picture-Writing-Code: MLNLP: Paper Picture Writing Code (github.com)](https://github.com/MLNLP-World/Paper-Picture-Writing-Code)
+3. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
+4. 画模型图：用drawio，有Win版，也有网页版。
+
+
+
+# 5. 其他
+
+
 
 ## 算法题
 
@@ -288,13 +315,16 @@
 - [Ubuntu登录SSH后显示欢迎消息 - 知乎](https://zhuanlan.zhihu.com/p/390518917)
 
 - **conda**
-
   - [Conda常用命令合集](https://zhuanlan.zhihu.com/p/363904808)
-
+  
 - **Nvidia-smi**
 
   - [windos中查看gpu信息，以及NVIDIA-SMI命令详解_tanlangqie的博客-CSDN博客_查看gpu](https://blog.csdn.net/tanlangqie/article/details/82967296)
 
+- **frp内网穿透**
+  - [frp (gofrp.org)](https://gofrp.org/)
+  - [frp实现内网穿透访问内网多台Linux服务器 - JasonCeng - 博客园 (cnblogs.com)](https://www.cnblogs.com/JasonCeng/p/14375087.html)
+  - [详细内网穿透原理（转载） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/444415996)
   
 
 ## Git
