@@ -229,8 +229,8 @@
 
 - 官方介绍：[ChatGPT: Optimizing Language Models for Dialogue (openai.com)](https://openai.com/blog/chatgpt/)
 - demo：chat.openai.com，openai账号某宝可买。
-- [(7 封私信 / 18 条消息) 国内有类似ChatGPT能力的模型吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570713548)
-- [(7 封私信 / 18 条消息) 如何评价 ChatGPT ？会取代搜索引擎吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570062224)
+- [国内有类似ChatGPT能力的模型吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570713548)
+- [如何评价 ChatGPT ？会取代搜索引擎吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570062224)
 - [台大陈蕴侬：InstructGPT-ChatGPT前身，从人类回馈中学习_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18W4y1g7x4/?spm_id_from=444.41.list.card_archive.click&vd_source=a0cdcca7d567da626e54d50523fa551c)
 - 李宏毅：ChatGPT是怎么练成的？ https://mp.weixin.qq.com/s/ylY4DOcVEVWP9uFPZZ9iYw
 - 目前论文还未放出。
@@ -256,18 +256,22 @@
 
 # 4. 写作
 
-1. OverLeaf：https://www.overleaf.com/
-2. **图表**：
+1. **Latex写论文**：https://www.overleaf.com/
+2. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
+3. **LaTeX数学公式**：[Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
+4. **画图表**：
    1. Excel：
       1. [Tip: Excel图表导出为PDF图像 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/260991352)，然后利用工具裁剪导出后的PDF，比如WPS（开会员）。
       2. [用Excel制作Origin科研论文图（分组柱状图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/527514961)
-      3. [(6 封私信 / 1 条消息) 如何将论文图表做得漂亮？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/26983018)
+      3. [如何将论文图表做得漂亮？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/26983018)
    2. Python：
       1. [Python常用画图代码（折线图、柱状图、饼图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/345841672)
       2. [Python 绘图，我只用 Matplotlib（三）—— 柱状图 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/47679593)
    3. [MLNLP-World/Paper-Picture-Writing-Code: MLNLP: Paper Picture Writing Code (github.com)](https://github.com/MLNLP-World/Paper-Picture-Writing-Code)
-3. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
-4. 画模型图：用drawio，有Win版，也有网页版。
+5. **画模型图**：draw.io
+6. **设置字体颜色**：[LaTeX知识分享|如何设置字体颜色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426780029?utm_id=0)
+7. **数学公式加粗**：[如何在LaTeX数学模式中更好地使用粗体？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/25290041)
+8. **对号和叉号**：[latex中的对与错(对号√与叉号×)](https://blog.csdn.net/m0_61899108/article/details/126585359)
 
 
 
