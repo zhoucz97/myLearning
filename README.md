@@ -56,6 +56,8 @@
 
   - [精确率、准确率、召回率、F1值含义及sklearn调用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/530885866)
   - [三种F1指标](https://blog.csdn.net/weixin_48185819/article/details/108195540)
+  - [BLEU - Wikipedia](https://en.wikipedia.org/wiki/BLEU)
+  - [ROUGE (metric) - Wikipedia](https://en.wikipedia.org/wiki/ROUGE_(metric))
 
 - **过拟合问题**
 
@@ -179,6 +181,11 @@
 
   - [Hopfield网络的基本 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/116908556)
   - [最简单的神经网络：霍普菲尔德神经网络 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/370000751)
+  
+- 对神经网络的结果做**显著性检验**
+
+  - [如何对一个神经网络分类器做显著性检验（例如t-test）？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/528045984/answer/2488535331)
+
 
 
 
@@ -225,15 +232,42 @@
 
 
 
-## ChatGPT
+## LLM
 
-- 官方介绍：[ChatGPT: Optimizing Language Models for Dialogue (openai.com)](https://openai.com/blog/chatgpt/)
+### ChatGPT
+
 - demo：chat.openai.com，openai账号某宝可买。
-- [国内有类似ChatGPT能力的模型吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570713548)
-- [如何评价 ChatGPT ？会取代搜索引擎吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570062224)
-- [台大陈蕴侬：InstructGPT-ChatGPT前身，从人类回馈中学习_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18W4y1g7x4/?spm_id_from=444.41.list.card_archive.click&vd_source=a0cdcca7d567da626e54d50523fa551c)
-- 李宏毅：ChatGPT是怎么练成的？ https://mp.weixin.qq.com/s/ylY4DOcVEVWP9uFPZZ9iYw
+- 快速了解ChatGPT
+  - 官方介绍：[ChatGPT: Optimizing Language Models for Dialogue (openai.com)](https://openai.com/blog/chatgpt/)
+  - [台大陈蕴侬：InstructGPT-ChatGPT前身，从人类回馈中学习_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18W4y1g7x4/?spm_id_from=444.41.list.card_archive.click&vd_source=a0cdcca7d567da626e54d50523fa551c)
+  - 李宏毅：ChatGPT是怎么练成的？ https://mp.weixin.qq.com/s/ylY4DOcVEVWP9uFPZZ9iYw
+  - **推荐**：[ChatGPT/InstructGPT详解 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/590311003)
+- ChatGPT讨论
+  - [国内有类似ChatGPT能力的模型吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570713548)
+  - [如何评价 ChatGPT ？会取代搜索引擎吗？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570062224)
+  - [阻碍国内团队研究 ChatGPT 这样产品的障碍有哪些，技术，钱，还是领导力？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/570782945)
+  
+- **ChatGPT镜像，无需注册**：[ChatGPT (chatapi.art)](https://gpt.chatapi.art/)
 - 目前论文还未放出。
+- Reinforcement Learning from Human Feedback (RLHF)教程（Huggingface）
+  - [从零实现ChatGPT——RLHF技术笔记 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/591474085)
+  - [Illustrating Reinforcement Learning from Human Feedback (RLHF) (huggingface.co)](https://huggingface.co/blog/rlhf)
+  - 直播录像：https://www.youtube.com/watch?v=EAd4oQtEJOM&ab_channel=HuggingFace
+
+
+### Alpa
+
+- [alpa-projects/alpa: Training and serving large-scale neural networks (github.com)](https://github.com/alpa-projects/alpa)
+- 文档：[Alpa Documentation — Alpa 0.2.2.dev12 documentation](https://alpa.ai/)
+- demo页面：[Serving OPT-175B Language Model with Alpa](https://opt.alpa.ai/)
+- 
+
+### 智源悟道
+
+- 官网：[悟道 (wudaoai.cn)](https://wudaoai.cn/home)
+- demo：[悟道通用图灵测试 (aminer.cn)](https://models.aminer.cn/turing-test/v2/)
+- CPM-Live：[CPM-Live ｜ OpenBMB](https://live.openbmb.org/home)
+- OpenBMB官网：[OpenBMB - 让大模型飞入千家万户](https://www.openbmb.org/home)
 
 
 
@@ -254,12 +288,15 @@
 
 
 
-# 4. 写作
+# 4. 科研
 
 1. **Latex写论文**：https://www.overleaf.com/
-2. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
-3. **LaTeX数学公式**：[Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
-4. **画图表**：
+2. LaTeX教程：
+   1. [Latex使用心得 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/518143774)
+
+3. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
+4. **LaTeX数学公式**：[Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
+5. **画图表**：
    1. Excel：
       1. [Tip: Excel图表导出为PDF图像 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/260991352)，然后利用工具裁剪导出后的PDF，比如WPS（开会员）。
       2. [用Excel制作Origin科研论文图（分组柱状图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/527514961)
@@ -268,10 +305,13 @@
       1. [Python常用画图代码（折线图、柱状图、饼图） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/345841672)
       2. [Python 绘图，我只用 Matplotlib（三）—— 柱状图 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/47679593)
    3. [MLNLP-World/Paper-Picture-Writing-Code: MLNLP: Paper Picture Writing Code (github.com)](https://github.com/MLNLP-World/Paper-Picture-Writing-Code)
-5. **画模型图**：draw.io
-6. **设置字体颜色**：[LaTeX知识分享|如何设置字体颜色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426780029?utm_id=0)
-7. **数学公式加粗**：[如何在LaTeX数学模式中更好地使用粗体？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/25290041)
-8. **对号和叉号**：[latex中的对与错(对号√与叉号×)](https://blog.csdn.net/m0_61899108/article/details/126585359)
+6. **画模型图**：draw.io
+7. **设置字体颜色**：[LaTeX知识分享|如何设置字体颜色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426780029?utm_id=0)
+8. **数学公式加粗**：[如何在LaTeX数学模式中更好地使用粗体？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/25290041)
+9. **对号和叉号**：[latex中的对与错(对号√与叉号×)](https://blog.csdn.net/m0_61899108/article/details/126585359)
+10. 科研小技巧：
+    1. [我的收藏 - 收藏夹 - 知乎 (zhihu.com)](https://www.zhihu.com/collection/700323211)
+
 
 
 
@@ -301,6 +341,7 @@
 - **手动下载Pytorch**
   - 官方源：https://download.pytorch.org/whl/torch_stable.html
   - 清华源：[Index of /anaconda/cloud/pytorch/linux-64/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/)
+  - [Pytorch手动下载安装教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/591788841)
 
 
 
