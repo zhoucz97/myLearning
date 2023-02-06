@@ -253,6 +253,12 @@
   - [从零实现ChatGPT——RLHF技术笔记 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/591474085)
   - [Illustrating Reinforcement Learning from Human Feedback (RLHF) (huggingface.co)](https://huggingface.co/blog/rlhf)
   - 直播录像：https://www.youtube.com/watch?v=EAd4oQtEJOM&ab_channel=HuggingFace
+- **RLHF教程**
+  - [lvwerra/trl: Train transformer language models with reinforcement learning. (github.com)](https://github.com/lvwerra/trl)
+  - [allenai/RL4LMs: A modular RL library to fine-tune language models to human preferences (github.com)](https://github.com/allenai/RL4LMs)
+  - [CarperAI/trlx: A repo for distributed training of language models with Reinforcement Learning via Human Feedback (RLHF) (github.com)](https://github.com/CarperAI/trlx)
+
+- ChatGPT谷歌插件：[wong2/chatgpt-google-extension: A browser extension that enhance search engines with ChatGPT (github.com)](https://github.com/wong2/chatgpt-google-extension)
 
 
 ### Alpa
