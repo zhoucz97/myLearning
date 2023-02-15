@@ -23,7 +23,7 @@
   - [CS229 课程讲义中文翻译](https://github.com/Kivy-CN/Stanford-CS-229-CN)
   - [个人整理的229资料](https://github.com/zhoucz97/CS229)，主要是08年和18年吴恩达的。
   
-- **【强推】**李宏毅人工智能课
+- 【**强推**】李宏毅人工智能课
   - [Bilibili-2021/2022春机器学习课程](https://www.bilibili.com/video/BV1Wv411h7kN/?p=1&vd_source=a0cdcca7d567da626e54d50523fa551c)
   - [李宏毅老师YouTube频道](https://www.youtube.com/c/HungyiLeeNTU)，包括机器学习、自然语言处理、GAN、强化学习等一系列课程。
 
@@ -34,6 +34,7 @@
 - 《动手学深度学习》
   - [Tensorflow2版本](https://trickygo.github.io/Dive-into-DL-TensorFlow2.0/#/)
   - [pytorch版本](https://tangshusen.me/Dive-into-DL-PyTorch/#/)
+- 强化学习教程（蘑菇书）：[datawhalechina/easy-rl: 强化学习中文教程（蘑菇书）](https://github.com/datawhalechina/easy-rl)
 - 深度学习圣经—**花书**
   - 英文版原书：https://www.deeplearningbook.org/
   - 中文版翻译：https://github.com/exacity/deeplearningbook-chinese
@@ -238,15 +239,6 @@
 
 参见：[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
 
-### 2. Bard-Google
-
-- Bard发布：[Google AI updates: Bard and new AI features in Search (blog.google)](https://blog.google/technology/ai/bard-google-ai-search-updates/)
-- 
-
-### 3. YouChat
-
-- [who are you - AI Search Based Chat | AI for Search Engines](https://you.com/search?q=who+are+you&tbm=youchat&cfr=chat)
-
 
 
 ### Alpa
@@ -287,7 +279,6 @@
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
    1. [Latex使用心得 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/518143774)
-
 3. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
 4. **LaTeX数学公式**：[Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
 5. **画图表**：
@@ -303,8 +294,6 @@
 7. **设置字体颜色**：[LaTeX知识分享|如何设置字体颜色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426780029?utm_id=0)
 8. **数学公式加粗**：[如何在LaTeX数学模式中更好地使用粗体？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/25290041)
 9. **对号和叉号**：[latex中的对与错(对号√与叉号×)](https://blog.csdn.net/m0_61899108/article/details/126585359)
-10. 科研小技巧：
-    1. [我的收藏 - 收藏夹 - 知乎 (zhihu.com)](https://www.zhihu.com/collection/700323211)
 
 
 
