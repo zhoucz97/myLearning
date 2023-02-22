@@ -386,3 +386,15 @@
 
 - [datawhale组队学习Docker](https://github.com/datawhalechina/team-learning-program/tree/master/Docker)
 - [《Docker从入门到实战》](https://vuepress.mirror.docker-practice.com/)
+
+
+
+## CUDA编程
+
+>  收藏从未停止，学习从未开始55555
+
+- [熬了几个通宵，我写了份CUDA新手入门代码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/360441891)
+- [CUDA编程入门极简教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/34587739)
+- [一、CUDA C++ 编程指导 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/396997244)
+- [推荐几个不错的CUDA入门教程（非广告） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/346910129)
+- 
