@@ -14,8 +14,6 @@
 
 
 
-
-
 # 1. 教程
 
 - **【机器学习必看】**—吴恩达Stanford CS229
@@ -397,4 +395,8 @@
 - [CUDA编程入门极简教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/34587739)
 - [一、CUDA C++ 编程指导 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/396997244)
 - [推荐几个不错的CUDA入门教程（非广告） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/346910129)
-- 
+- [《CUDA C编程权威指南》](https://github.com/zhoucz97/myLearning/blob/main/CUDA%20C%E7%BC%96%E7%A8%8B%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%20(%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6)%20(%E7%A8%8B%E6%B6%A6%E4%BC%9F%EF%BC%88John%20Cheng%EF%BC%89)%20(z-lib.org).pdf)
+- [CUDA 编程入门PPT-李Rumor](https://github.com/zhoucz97/myLearning/blob/main/CUDA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8.pptx)
+- https://www.easyhpc.net/problem/programming_lab/4 然后这里面有一些简单的函数应用，也有答案，如果想敲一下可以比着敲一敲，能加深理解
+- https://developer.download.nvidia.cn/compute/DevZone/docs/html/C/doc/html/index.html 这是英伟达的官方文档，里面有各种函数和数据结构的介绍 不过比较简单
+
