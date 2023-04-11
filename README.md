@@ -8,8 +8,8 @@
 
 - [1.教程](#1-教程)
 - [2.基础知识](#2-基础知识)
-- [3.AI](#3-AI)
-- [4.论文写作](#4-科研)
+- [3.NLP](#3-NLP)
+- [4.写作](#4-写作)
 - [5.其他](#5-其他)
 
 
@@ -207,7 +207,7 @@
 
 
 
-# 3. AI
+# 3. NLP
 
 ## Text Classification
 
@@ -252,18 +252,23 @@
 
 ## LLM
 
-### 1. ChatGPT-OpenAI
+### ChatGPT-OpenAI
 
 参见：[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
+
+### Lora
 
 
 
 ### Alpa
 
 - [alpa-projects/alpa: Training and serving large-scale neural networks (github.com)](https://github.com/alpa-projects/alpa)
+
 - 文档：[Alpa Documentation — Alpa 0.2.2.dev12 documentation](https://alpa.ai/)
+
 - demo页面：[Serving OPT-175B Language Model with Alpa](https://opt.alpa.ai/)
-- 
+
+  
 
 ### 智源悟道
 
@@ -291,13 +296,16 @@
 
 
 
-# 4. 科研
+# 4. 写作
 
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
    1. [Latex使用心得 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/518143774)
 3. [MLNLP-World/Paper-Writing-Tips: 该仓库是MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips (github.com)](https://github.com/MLNLP-World/Paper-Writing-Tips)
-4. **LaTeX数学公式**：[Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
+4. **LaTeX数学公式**：
+   1. [Online Equation Editor - standalone (codecogs.com)](https://www.codecogs.com/latex/eqneditor.php)
+   2. [在线LaTeX公式编辑器-编辑器 (latexlive.com)](https://www.latexlive.com/home)
+
 5. **画图表**：
    1. Excel：
       1. [Tip: Excel图表导出为PDF图像 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/260991352)，然后利用工具裁剪导出后的PDF，比如WPS（开会员）。
@@ -330,6 +338,10 @@
 
 - Logging：[python中logging日志模块详解](https://www.cnblogs.com/xianyulouie/p/11041777.html)
 - 调试器Pdb：[10分钟教程掌握Python调试器pdb - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/37294138)
+- 类型注释：
+  - [Python -类型提示 Type Hints - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15145380.html)
+  - [Python - typing 模块 —— 常用类型提示 - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15150315.html)
+
 
 
 
@@ -342,6 +354,11 @@
   - 官方源：https://download.pytorch.org/whl/torch_stable.html
   - 清华源：[Index of /anaconda/cloud/pytorch/linux-64/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/)
   - [Pytorch手动下载安装教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/591788841)
+- **手动下载Transformers库的参数**
+  - [如何优雅的下载huggingface-transformers模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/475260268)
+  - `wget https://s3.amazonaws.com/models.huggingface.co/bert/${model_name}-pytorch_model.bin`，
+  - 例如`wget https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-pytorch_model.bin`
+
 
 
 
@@ -371,6 +388,7 @@
   - [frp实现内网穿透访问内网多台Linux服务器 - JasonCeng - 博客园 (cnblogs.com)](https://www.cnblogs.com/JasonCeng/p/14375087.html)
   - [详细内网穿透原理（转载） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/444415996)
   
+- ubuntu实现科学上网：[Ubuntu/Linux终端纯命令行部署和控制Clash懒人Blog (nekocat.top)](https://nekocat.top/clash/)
 
 ## Git
 
@@ -389,7 +407,7 @@
 
 ## CUDA编程
 
->  收藏从未停止，学习从未开始55555
+>  收藏从未停止，学习从未开始
 
 - [熬了几个通宵，我写了份CUDA新手入门代码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/360441891)
 - [CUDA编程入门极简教程 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/34587739)
@@ -400,3 +418,8 @@
 - https://www.easyhpc.net/problem/programming_lab/4 然后这里面有一些简单的函数应用，也有答案，如果想敲一下可以比着敲一敲，能加深理解
 - https://developer.download.nvidia.cn/compute/DevZone/docs/html/C/doc/html/index.html 这是英伟达的官方文档，里面有各种函数和数据结构的介绍 不过比较简单
 
+## 分布式训练
+
+>  收藏从未停止，学习从未开始
+
+- [大规模语言模型训练关键技术：混合精度训练、显存分析与DeepSpeed分布式训练实践](https://mp.weixin.qq.com/s/4Rz9EDFUyUgP-txTZwOdBA)
