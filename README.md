@@ -9,8 +9,9 @@
 - [1.教程](#1-教程)
 - [2.基础知识](#2-基础知识)
 - [3.NLP](#3-NLP)
-- [4.写作](#4-写作)
-- [5.其他](#5-其他)
+- [4.LLM](#4-LLM)
+- [5.写作](#5-写作)
+- [6.其他](#6-其他)
 
 
 
@@ -250,35 +251,6 @@
 
 
 
-## LLM
-
-### ChatGPT-OpenAI
-
-参见：[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
-
-### Lora
-
-
-
-### Alpa
-
-- [alpa-projects/alpa: Training and serving large-scale neural networks (github.com)](https://github.com/alpa-projects/alpa)
-
-- 文档：[Alpa Documentation — Alpa 0.2.2.dev12 documentation](https://alpa.ai/)
-
-- demo页面：[Serving OPT-175B Language Model with Alpa](https://opt.alpa.ai/)
-
-  
-
-### 智源悟道
-
-- 官网：[悟道 (wudaoai.cn)](https://wudaoai.cn/home)
-- demo：[悟道通用图灵测试 (aminer.cn)](https://models.aminer.cn/turing-test/v2/)
-- CPM-Live：[CPM-Live ｜ OpenBMB](https://live.openbmb.org/home)
-- OpenBMB官网：[OpenBMB - 让大模型飞入千家万户](https://www.openbmb.org/home)
-
-
-
 ## GNN
 
 - [知乎—如何理解GCN？](https://www.zhihu.com/search?type=content&q=GCN)
@@ -296,7 +268,35 @@
 
 
 
-# 4. 写作
+# 4. LLM
+
+## 模型
+
+### ChatGPT
+
+见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
+
+## 技术
+
+### In-Context Learning
+
+【Paper List】[dongguanting/In-Context-Learning_PaperList: Paper List for In-context Learning 🌷 (github.com)](https://github.com/dongguanting/In-Context-Learning_PaperList)
+
+【文章】ICL中的示例选择及效果：https://mp.weixin.qq.com/s/SsGmta7Ethx_rSchcKUioA
+
+### 模型压缩及分布式训练
+
+>  收藏从未停止，学习从未开始
+
+- [大规模语言模型训练关键技术：混合精度训练、显存分析与DeepSpeed分布式训练实践](https://mp.weixin.qq.com/s/4Rz9EDFUyUgP-txTZwOdBA)
+
+
+
+
+
+
+
+# 5. 写作
 
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
@@ -323,7 +323,7 @@
 
 
 
-# 5. 其他
+# 6. 其他
 
 
 
@@ -358,8 +358,6 @@
   - [如何优雅的下载huggingface-transformers模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/475260268)
   - `wget https://s3.amazonaws.com/models.huggingface.co/bert/${model_name}-pytorch_model.bin`，
   - 例如`wget https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-pytorch_model.bin`
-
-
 
 
 
@@ -417,9 +415,3 @@
 - [CUDA 编程入门PPT-李Rumor](https://github.com/zhoucz97/myLearning/blob/main/CUDA%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8.pptx)
 - https://www.easyhpc.net/problem/programming_lab/4 然后这里面有一些简单的函数应用，也有答案，如果想敲一下可以比着敲一敲，能加深理解
 - https://developer.download.nvidia.cn/compute/DevZone/docs/html/C/doc/html/index.html 这是英伟达的官方文档，里面有各种函数和数据结构的介绍 不过比较简单
-
-## 分布式训练
-
->  收藏从未停止，学习从未开始
-
-- [大规模语言模型训练关键技术：混合精度训练、显存分析与DeepSpeed分布式训练实践](https://mp.weixin.qq.com/s/4Rz9EDFUyUgP-txTZwOdBA)
