@@ -45,7 +45,7 @@
   - 作业：[parachutel/cs224n-stanford-winter2021: Stanford Winter 2021 (github.com)](https://github.com/parachutel/cs224n-stanford-winter2021)
 
 
-# 2. 基础知识
+# 2. 深度学习基础知识
 
 - **激活函数**
 
@@ -266,17 +266,11 @@
 
 - [从VAE到扩散模型：一文解读以文生图新范式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/519415802)
 
+## LLM
 
-
-# 4. LLM
-
-## 模型
-
-### ChatGPT
+#### ChatGPT
 
 见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
-
-## 技术
 
 ### In-Context Learning
 
@@ -292,11 +286,19 @@
 
 
 
+## Transformers Tasks
+
+> **入门huggingface的transformers库强推**
+
+[HarderThenHarder/transformers_tasks: ⭐️ NLP Algorithms with transformers lib. (github.com)](https://github.com/HarderThenHarder/transformers_tasks/tree/main)
+
+该项目集成了基于 [transformers](https://huggingface.co/docs/transformers/index) 库实现的多种 NLP 任务。，是何枝大佬的transformers教程，**很推荐！**尤其适合入门transformers的小白。
+
+目前已实现的NLP任务有：文本匹配、文本分类、文本生成、信息抽取、prompt任务、RLHF、大模型应用、大模型微调。
 
 
 
-
-# 5. 写作
+# 5. 论文写作
 
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
@@ -319,13 +321,14 @@
 7. **设置字体颜色**：[LaTeX知识分享|如何设置字体颜色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/426780029?utm_id=0)
 8. **数学公式加粗**：[如何在LaTeX数学模式中更好地使用粗体？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/25290041)
 9. **对号和叉号**：[latex中的对与错(对号√与叉号×)](https://blog.csdn.net/m0_61899108/article/details/126585359)
+10. **论文润色**
+    1. ChatGPT：[如何使用ChatGPT对论文进行润色 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/631359979)
+
 
 
 
 
 # 6. 其他
-
-
 
 ## 算法题
 
@@ -341,8 +344,6 @@
 - 类型注释：
   - [Python -类型提示 Type Hints - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15145380.html)
   - [Python - typing 模块 —— 常用类型提示 - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15150315.html)
-
-
 
 
 ## Pytorch
@@ -400,8 +401,6 @@
 
 - [datawhale组队学习Docker](https://github.com/datawhalechina/team-learning-program/tree/master/Docker)
 - [《Docker从入门到实战》](https://vuepress.mirror.docker-practice.com/)
-
-
 
 ## CUDA编程
 
