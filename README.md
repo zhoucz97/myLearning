@@ -44,7 +44,7 @@
   - 作业：[parachutel/cs224n-stanford-winter2021: Stanford Winter 2021 (github.com)](https://github.com/parachutel/cs224n-stanford-winter2021)
 
 
-# 2. 深度学习基础知识
+# 2. 基础知识
 
 - **激活函数**
 
@@ -201,7 +201,17 @@
 
   - [如何评价数据标注中的一致性？以信息抽取为例，浅谈Fleiss' Kappa - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/547781481)
   - [Cohen’s kappa系数_Unacandoit的博客-CSDN博客_cohen鈥檚 kappa](https://blog.csdn.net/Una20200519/article/details/122140316)
+  
+- **Pointwise,Pairwise, listwise**
 
+  - [文本匹配的两种方法——PairWise和PointWise - 知乎 (zhihu.com)](https://www.zhihu.com/zvideo/1557028589530464256?utm_id=0)
+  - [排序主要的三种损失函数（pointwise、pairwise、listwise） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/420104607)
+  - [学习排序入门级概述 (360doc.com)](http://www.360doc.com/content/20/1219/23/7673502_952440720.shtml)
+
+- **乘积运算**
+  - [哈达玛积、矩阵乘积、克罗内克积：hadamard product、matmul product、kronecker product_hellocsz的博客-CSDN博客](https://blog.csdn.net/hellocsz/article/details/88910383)
+  - [点积，内积，哈达玛积的区别_哈达玛乘积_SaltyFish_Go的博客-CSDN博客](https://blog.csdn.net/weixin_45169380/article/details/122090386)
+  - [阿达玛乘积 (矩阵) - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/zh-cn/阿達瑪乘積_(矩陣))
 
 
 
@@ -261,13 +271,17 @@
 - [Pytorch Graph Attention Network](https://github.com/Diego999/pyGAT)
 - **[Pytorch-Geometric(PyG)官方文档](https://mp.weixin.qq.com/s/mefUYQnTn8vdWV78c9lRBw)**
 
+
+
 ## 扩散模型
 
 - [从VAE到扩散模型：一文解读以文生图新范式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/519415802)
 
+
+
 ## LLM
 
-#### ChatGPT
+### ChatGPT入门资料
 
 见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
 
@@ -285,6 +299,24 @@
 
 
 
+### LLM文章
+
+- [【LLM】从零开始训练大模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/636270877)
+
+### LLM实践
+
+- ChatGLM-6B
+  - [THUDM/ChatGLM-6B: ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型 (github.com)](https://github.com/THUDM/ChatGLM-6B)
+
+- LangChain + ChatGLM搭建基于本地知识库的问题
+  - [吴恩达**LangChain**视频教程  哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pz4y1e7T9/?spm_id_from=333.788.recommend_more_video.-1&vd_source=a0cdcca7d567da626e54d50523fa551c)
+
+  - [【官方视频教程】ChatGLM + LangChain 实践培训_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV13M4y1e7cN/?share_source=copy_web&vd_source=e6c5aafe684f30fbe41925d61ca6d514)
+
+  - [langchain-ChatGLM Github Repo: ｜ 基于本地知识库的 ChatGLM 问答 (github.com)](https://github.com/chatchat-space/langchain-ChatGLM)
+
+
+
 ## Transformers Tasks
 
 > **入门huggingface的transformers库强推**
@@ -294,6 +326,24 @@
 该项目集成了基于 [transformers](https://huggingface.co/docs/transformers/index) 库实现的多种 NLP 任务。，是何枝大佬的transformers教程，**很推荐！**尤其适合入门transformers的小白。
 
 目前已实现的NLP任务有：文本匹配、文本分类、文本生成、信息抽取、prompt任务、RLHF、大模型应用、大模型微调。
+
+
+
+## SimCSE
+
+经典的无监督文本匹配模型
+
+- [【SimCSE】没有标注数据也能训练文本匹配模型（附源码） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/599230890)
+- 论文：[2104.08821.pdf (arxiv.org)](https://arxiv.org/pdf/2104.08821.pdf)
+- ESimCSE：[2109.04380.pdf (arxiv.org)](https://arxiv.org/pdf/2109.04380.pdf)
+
+
+
+## Retrieval-based LLM
+
+[ACL 2023 Tutorial: Retrieval-based LMs and Applications (acl2023-retrieval-lm.github.io)](https://acl2023-retrieval-lm.github.io/)
+
+
 
 
 
