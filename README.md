@@ -208,7 +208,12 @@
   - [排序主要的三种损失函数（pointwise、pairwise、listwise） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/420104607)
   - [学习排序入门级概述 (360doc.com)](http://www.360doc.com/content/20/1219/23/7673502_952440720.shtml)
 
+- 搜索评价指标DCG
+
+  - [搜索的评价指标DCG - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/474410818)
+  
 - **乘积运算**
+
   - [哈达玛积、矩阵乘积、克罗内克积：hadamard product、matmul product、kronecker product_hellocsz的博客-CSDN博客](https://blog.csdn.net/hellocsz/article/details/88910383)
   - [点积，内积，哈达玛积的区别_哈达玛乘积_SaltyFish_Go的博客-CSDN博客](https://blog.csdn.net/weixin_45169380/article/details/122090386)
   - [阿达玛乘积 (矩阵) - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/zh-cn/阿達瑪乘積_(矩陣))
@@ -247,6 +252,7 @@
   - BERT参数量计算：
     - [How is the number of BERT model parameters calculated? · Issue #656 · google-research/bert (github.com)](https://github.com/google-research/bert/issues/656)
     - [BERT参数量如何计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/357353536)
+    - [小白Bert系列-参数计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/144582114)
 
 ## Sentiment Analysis
 
@@ -419,9 +425,8 @@
   - [Tmux 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
 - **nohup**
-
   - [服务器后台跑程序的一种方法（nohup）_Laiguibing521的博客-CSDN博客](https://blog.csdn.net/laiguibing521/article/details/90316703)
-
+  
 - [Ubuntu登录SSH后显示欢迎消息 - 知乎](https://zhuanlan.zhihu.com/p/390518917)
 
 - **conda**
