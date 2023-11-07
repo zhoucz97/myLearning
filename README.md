@@ -323,7 +323,8 @@
 
 - 模型压缩及分布式训练
     - [大规模语言模型训练关键技术：混合精度训练、显存分析与DeepSpeed分布式训练实践](https://mp.weixin.qq.com/s/4Rz9EDFUyUgP-txTZwOdBA)
-
+    - [当代研究生应当掌握的并行训练方法（单机多卡） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/98535650?utm_psn=1701212712389009408)
+    
 - **ChatGLM-6B**
     - [THUDM/ChatGLM-6B: ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型 (github.com)](https://github.com/THUDM/ChatGLM-6B)
     - [ChatGLM-6B微调 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/643575779)
@@ -429,7 +430,9 @@
     - `wget https://s3.amazonaws.com/models.huggingface.co/bert/${model_name}-pytorch_model.bin`，
     - 例如`wget -L https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-pytorch_model.bin`
 
-
+- huggingface模型下载
+    - [大模型下载使我痛苦 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/662947944)
+    - [如何快速下载huggingface模型——全方法总结 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/663712983)
 
 ## 服务器
 
