@@ -186,9 +186,12 @@
     - [点积，内积，哈达玛积的区别_哈达玛乘积_SaltyFish_Go的博客-CSDN博客](https://blog.csdn.net/weixin_45169380/article/details/122090386)
     - [阿达玛乘积 (矩阵) - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/zh-cn/阿達瑪乘積_(矩陣))
 
+- **判别式模型和生成式模型的区别**
+    - [判别式模型和生成式模型区别 - bonelee - 博客园 (cnblogs.com)](https://www.cnblogs.com/bonelee/p/15116547.html)
 
-
-
+- **自编码器AE和变分自编码器VAE**
+    - [AutoEncoder (AE) 和 Variational AutoEncoder (VAE) 的详细介绍和对比 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/429686815)
+    - [自编码器（AE、VAE）的原理与代码实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/628604566)
 
 # 3. NLP
 
@@ -312,40 +315,33 @@
 ## 3.2LLM
 
 - 【文章】[【LLM】从零开始训练大模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/636270877)
-
 - 【ChatGPT入门资料】见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
-
 - 【In-Context Learning】
 
     - 【Paper List】[dongguanting/In-Context-Learning_PaperList: Paper List for In-context Learning 🌷 (github.com)](https://github.com/dongguanting/In-Context-Learning_PaperList)
 
     - 【文章】ICL中的示例选择及效果：https://mp.weixin.qq.com/s/SsGmta7Ethx_rSchcKUioA
-
 - 模型压缩及分布式训练
     - [大规模语言模型训练关键技术：混合精度训练、显存分析与DeepSpeed分布式训练实践](https://mp.weixin.qq.com/s/4Rz9EDFUyUgP-txTZwOdBA)
     - [当代研究生应当掌握的并行训练方法（单机多卡） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/98535650?utm_psn=1701212712389009408)
-    
 - **ChatGLM-6B**
     - [THUDM/ChatGLM-6B: ChatGLM-6B: An Open Bilingual Dialogue Language Model | 开源双语对话语言模型 (github.com)](https://github.com/THUDM/ChatGLM-6B)
     - [ChatGLM-6B微调 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/643575779)
     - [一文搞定ChatGLM2-6B部署！ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/647224135)
     - 
-
 - **LangChain + ChatGLM搭建基于本地知识库的问题**
     - [吴恩达**LangChain**视频教程  哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pz4y1e7T9/?spm_id_from=333.788.recommend_more_video.-1&vd_source=a0cdcca7d567da626e54d50523fa551c)
 
     - [【官方视频教程】ChatGLM + LangChain 实践培训_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV13M4y1e7cN/?share_source=copy_web&vd_source=e6c5aafe684f30fbe41925d61ca6d514)
 
     - [langchain-ChatGLM Github Repo: ｜ 基于本地知识库的 ChatGLM 问答 (github.com)](https://github.com/chatchat-space/langchain-ChatGLM)
-
 - **Retrieval-based LLM**教程
     - [ACL 2023 Tutorial: Retrieval-based LMs and Applications (acl2023-retrieval-lm.github.io)](https://acl2023-retrieval-lm.github.io/)
 - **大模型时代该何去何从？**
     - [选择你的道路：LLM 时代指南 (qq.com)](https://mp.weixin.qq.com/s/vfsB5t3r5dBACKQx6FshVw)
     - [大模型LLM领域，有哪些可以作为学术研究方向？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/595298808/answer/3047369015)
-    - 
-
-
+- **模型参数量和训练所占显存量计算**
+    - [LLM训练指南(二):模型参数、计算量、显存、计算时间计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/639872915?utm_id=0)
 
 
 ## 3.3Transformers Tasks
@@ -430,7 +426,7 @@
     - `wget https://s3.amazonaws.com/models.huggingface.co/bert/${model_name}-pytorch_model.bin`，
     - 例如`wget -L https://s3.amazonaws.com/models.huggingface.co/bert/roberta-base-pytorch_model.bin`
 
-- huggingface模型下载
+- **huggingface模型下载**
     - [大模型下载使我痛苦 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/662947944)
     - [如何快速下载huggingface模型——全方法总结 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/663712983)
 
@@ -463,6 +459,7 @@
 - **修改.cache路径**：[Unbuntu设置Hugging Face下载的本地缓存路径_浅陌sss的博客-CSDN博客](https://blog.csdn.net/weixin_50702814/article/details/132110520)
 - **新服务器安装cuda**
     - 什么是显卡驱动？cuda toolkit？CuDNN？[Nvidia显卡对应驱动，cuda toolkit 和 cuDNN 之间的版本关系_cudatoolkit-CSDN博客](https://blog.csdn.net/weixin_39928010/article/details/131142603)
+- 国内外芯片概述：[小白也能看懂的国内外 AI 芯片概述 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/667686665)
 
 
 ## Git
