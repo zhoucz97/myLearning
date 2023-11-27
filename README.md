@@ -7,8 +7,9 @@
 - [1.教程](#1-教程)  一些成体系的课程书籍等
 - [2.基础知识](#2-基础知识)  一些深度学习的基础知识，可当成面经用
 - [3.NLP](#3-NLP)  NLP相关
-- [4.写作](#4-论文写作)  论文写作相关
-- [5.其他](#5-其他)  算法题、Python、pytorch、服务器、Git、docker等
+- [4.LLM](#4-LLM)  LLM相关
+- [5.写作](#5-论文写作)  论文写作相关
+- [6.其他](#6-其他)  算法题、Python、pytorch、服务器、Git、docker等
 
 
 
@@ -310,9 +311,19 @@
     - ESimCSE：[2109.04380.pdf (arxiv.org)](https://arxiv.org/pdf/2109.04380.pdf)
 
 
+## 3.3Transformers Tasks
+
+> **入门huggingface的transformers库强推**
+
+[HarderThenHarder/transformers_tasks: ⭐️ NLP Algorithms with transformers lib. (github.com)](https://github.com/HarderThenHarder/transformers_tasks/tree/main)
+
+该项目集成了基于 [transformers](https://huggingface.co/docs/transformers/index) 库实现的多种 NLP 任务。，是何枝大佬的transformers教程，**很推荐！**尤其适合入门transformers的小白。
+
+目前已实现的NLP任务有：文本匹配、文本分类、文本生成、信息抽取、prompt任务、RLHF、大模型应用、大模型微调。
 
 
-## 3.2LLM
+
+# 4. LLM
 
 - 【文章】[【LLM】从零开始训练大模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/636270877)
 - 【ChatGPT入门资料】见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
@@ -337,6 +348,7 @@
     - [langchain-ChatGLM Github Repo: ｜ 基于本地知识库的 ChatGLM 问答 (github.com)](https://github.com/chatchat-space/langchain-ChatGLM)
 - **Retrieval-based LLM**教程
     - [ACL 2023 Tutorial: Retrieval-based LMs and Applications (acl2023-retrieval-lm.github.io)](https://acl2023-retrieval-lm.github.io/)
+    - [万字长文总结检索增强 LLM - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/655272123)
 - **大模型时代该何去何从？**
     - [选择你的道路：LLM 时代指南 (qq.com)](https://mp.weixin.qq.com/s/vfsB5t3r5dBACKQx6FshVw)
     - [大模型LLM领域，有哪些可以作为学术研究方向？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/595298808/answer/3047369015)
@@ -344,23 +356,8 @@
     - [LLM训练指南(二):模型参数、计算量、显存、计算时间计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/639872915?utm_id=0)
 
 
-## 3.3Transformers Tasks
 
-> **入门huggingface的transformers库强推**
-
-[HarderThenHarder/transformers_tasks: ⭐️ NLP Algorithms with transformers lib. (github.com)](https://github.com/HarderThenHarder/transformers_tasks/tree/main)
-
-该项目集成了基于 [transformers](https://huggingface.co/docs/transformers/index) 库实现的多种 NLP 任务。，是何枝大佬的transformers教程，**很推荐！**尤其适合入门transformers的小白。
-
-目前已实现的NLP任务有：文本匹配、文本分类、文本生成、信息抽取、prompt任务、RLHF、大模型应用、大模型微调。
-
-
-
-
-
-
-
-# 4. 论文写作
+# 5. 论文写作
 
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
@@ -390,7 +387,7 @@
 
 
 
-# 5. 其他
+# 6. 其他
 
 ## 算法题
 
