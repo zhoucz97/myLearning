@@ -433,6 +433,7 @@
 
     -  [一文助你打通 tmux - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102546608)
     -  [Tmux 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+    -  [自动保存tmux会话 关机重启再也不怕 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/146544540)
 - **nohup**
 
     - [服务器后台跑程序的一种方法（nohup）_Laiguibing521的博客-CSDN博客](https://blog.csdn.net/laiguibing521/article/details/90316703)
