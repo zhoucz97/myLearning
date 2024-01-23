@@ -47,6 +47,8 @@
 
 - 【LLM-TAP】复旦LLM书籍-《**大规模语言模型·从理论到实践**》：[大规模语言模型：从理论到实践 (intro-llm.github.io)](https://intro-llm.github.io/)
 
+- 【huggingface官方NLP教程】[Introduction - Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
+
 
 
 # 2. 基础知识
@@ -354,6 +356,18 @@
     - [大模型LLM领域，有哪些可以作为学术研究方向？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/595298808/answer/3047369015)
 - **模型参数量和训练所占显存量计算**
     - [LLM训练指南(二):模型参数、计算量、显存、计算时间计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/639872915?utm_id=0)
+- Mix-of-Expert (MoE)模型
+    - [Mixtral-8x7B 模型挖坑 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/674751021)
+    - [Mixture-of-Experts (MoE) 经典论文一览 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/542465517)
+
+
+
+
+### LLaMA
+
+- llama-chinese[FlagAlpha/Llama2-Chinese: Llama中文社区，最好的中文Llama大模型，完全开源可商用 (github.com)](https://github.com/FlagAlpha/Llama2-Chinese)
+- [hiyouga/LLaMA-Factory: Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) (github.com)](https://github.com/hiyouga/LLaMA-Factory/tree/main)
+- 
 
 
 
@@ -405,6 +419,7 @@
 - 类型注释：
     - [Python -类型提示 Type Hints - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15145380.html)
     - [Python - typing 模块 —— 常用类型提示 - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15150315.html)
+- `self`和`cls`的区别和用法:[python中cls和self的不同及使用_python cls和 self-CSDN博客](https://blog.csdn.net/qq_43678005/article/details/122650631)
 
 
 
@@ -431,10 +446,13 @@
 ## 服务器
 
 - **tmux**
-
     -  [一文助你打通 tmux - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102546608)
     -  [Tmux 使用教程 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
     -  [自动保存tmux会话 关机重启再也不怕 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/146544540)
+    -  [使用tmux分屏（既可以左右分屏，也可以上下分屏） - yangjianfeng - 博客园 (cnblogs.com)](https://www.cnblogs.com/yangjianfengzj/p/16919610.html)
+    -  设置服务器重启后自动恢复tmux工作现场
+        -  https://zhuanlan.zhihu.com/p/146544540?utm_source=wechat_session&utm_medium=social&s_r=0
+        -  [tmux session重启机器后自动恢复 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/55462443?utm_id=0)
 - **nohup**
 
     - [服务器后台跑程序的一种方法（nohup）_Laiguibing521的博客-CSDN博客](https://blog.csdn.net/laiguibing521/article/details/90316703)
