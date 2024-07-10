@@ -196,6 +196,37 @@
     - [AutoEncoder (AE) 和 Variational AutoEncoder (VAE) 的详细介绍和对比 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/429686815)
     - [自编码器（AE、VAE）的原理与代码实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/628604566)
 
+
+
+
+
+## LLM时代知识点
+
+- 归一化操作之**RMSNorm**
+    - 去掉了LayerNorm中的中心化操作，只进行缩放。缩放使用的是均方根。在性能不变的前提下可以提高效率。
+    - [论文笔记RMSNorm：Root Mean Square Layer Normalization - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/669071548)
+    - [RMSNorm的原理和代码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/685181632)
+    - [bzhangGo/rmsnorm: Root Mean Square Layer Normalization (github.com)](https://github.com/bzhangGo/rmsnorm)
+- **位置编码RoPE**
+  - [一文看懂 LLaMA 中的旋转式位置编码（Rotary Position Embedding） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/642884818)第一条评论最简洁证明
+    - [十分钟读懂旋转编码（RoPE） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/647109286)
+    - [Transformer升级之路：2、博采众长的旋转式位置编码 - 科学空间|Scientific Spaces (kexue.fm)](https://kexue.fm/archives/8265)
+    - [[2104.09864\] RoFormer: Enhanced Transformer with Rotary Position Embedding (arxiv.org)](https://arxiv.org/abs/2104.09864)
+    - [Rotary Position Embedding (RoPE, 旋转式位置编码) | 原理讲解+torch代码实现_#苦行僧的博客-CSDN博客](file:///Y:/zotero_data/storage/FT72GTG5/130924280.html)
+    
+    - 各种位置编码对比：[让研究人员绞尽脑汁的Transformer位置编码 - 科学空间|Scientific Spaces (kexue.fm)](https://kexue.fm/archives/8130)
+    
+    - [大语言模型中常用的旋转位置编码RoPE详解：为什么它比绝对或相对位置编码更好? (qq.com)](https://mp.weixin.qq.com/s?__biz=MzI1MjQ2OTQ3Ng==&mid=2247634440&idx=2&sn=1d95200046ae9f887fdea0f5d02cd4b6&chksm=e85de6768d59cf4674ea1edf3edaf792b6cb61f914faa678996241e00cd345a1803b38e474c1&scene=27)
+  
+- **KVCache**
+    - [Transformer推理性能优化技术很重要的一个就是K V cache，能否通俗分析，可以结合代码? - 知乎 (zhihu.com)](https://www.zhihu.com/question/596900067)
+- **RAG**检索增强生成
+    - [Modular RAG and RAG Flow: Part Ⅰ. A compressive and high-level… | by Yunfan Gao | Jan, 2024 | Medium](https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-ⅰ-e69b32dc13a3)
+    - [Modular RAG and RAG Flow: Part II | by Yunfan Gao | Jan, 2024 | Medium](https://medium.com/@yufan1602/modular-rag-and-rag-flow-part-ii-77b62bf8a5d3)
+    - [LLM（廿一）：从 RAG 到 Self-RAG —— LLM 的知识增强 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/661465330?utm_campaign=shareopn&utm_medium=social&utm_psn=1754578625976717313&utm_source=wechat_session)
+    - 
+
+
 # 3. NLP
 
 ## 3.1知识点
@@ -363,10 +394,20 @@
 
 
 
+
+
+
+
 ### LLaMA
 
 - llama-chinese[FlagAlpha/Llama2-Chinese: Llama中文社区，最好的中文Llama大模型，完全开源可商用 (github.com)](https://github.com/FlagAlpha/Llama2-Chinese)
 - [hiyouga/LLaMA-Factory: Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) (github.com)](https://github.com/hiyouga/LLaMA-Factory/tree/main)
+
+
+
+## CodeLLM
+
+- HumanEval: [代码生成模型评价指标 pass@k 的计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/653063532)
 - 
 
 
@@ -420,6 +461,7 @@
     - [Python -类型提示 Type Hints - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15145380.html)
     - [Python - typing 模块 —— 常用类型提示 - 小菠萝测试笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/poloyy/p/15150315.html)
 - `self`和`cls`的区别和用法:[python中cls和self的不同及使用_python cls和 self-CSDN博客](https://blog.csdn.net/qq_43678005/article/details/122650631)
+- python-deque()双端队列： [python中的deque详解_python deque-CSDN博客](https://blog.csdn.net/hhhhhhhhhhwwwwwwwwww/article/details/137141987)
 
 
 
@@ -482,6 +524,9 @@
 ## Git
 
 - [廖雪峰的官方网站之Git](https://www.liaoxuefeng.com/wiki/896043488029600)
+- push时报错`ssh: connect to host xx.xx.xx.xx port 22: Connection timed out`
+    - [解决 push 到 GitHub 异常 - 无法连接22端口 - 轶哥 (wyr.me)](https://www.wyr.me/post/742)
+
 
 ## Docker
 
