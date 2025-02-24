@@ -4,16 +4,17 @@
 
 ### Contents
 
-- [1.教程](#1-教程)  一些成体系的课程书籍等
-- [2.基础知识](#2-基础知识)  一些深度学习的基础知识，可当成面经用
-- [3.NLP](#3-NLP)  NLP相关
-- [4.LLM](#4-LLM)  LLM相关
-- [5.写作](#5-论文写作)  论文写作相关
-- [6.其他](#6-其他)  算法题、Python、pytorch、服务器、Git、docker等
+- [教程](#教程)  一些成体系的课程书籍等
+- [基础知识](#基础知识)  一些深度学习的基础知识，可当成面经用
+- [NLP](#NLP)  NLP相关
+- [LLM](#LLM)  LLM相关
+- [DeepSeek-R1](#DeepSeek-R1)  R1技术相关（RL）
+- [写作](#5-论文写作)  论文写作相关
+- [其他](#其他)  算法题、Python、pytorch、服务器、Git、docker等
 
 
 
-# 1. 教程
+# 教程
 
 - **【机器学习必看】**—吴恩达Stanford CS229
     - [CS229: Machine Learning (stanford.edu)](https://cs229.stanford.edu/)
@@ -51,7 +52,7 @@
 
 
 
-# 2. 基础知识
+# 基础知识
 
 - **激活函数**
 
@@ -227,7 +228,7 @@
     - 
 
 
-# 3. NLP
+# NLP
 
 ## 3.1知识点
 
@@ -356,7 +357,7 @@
 
 
 
-# 4. LLM
+# LLM
 
 - 【文章】[【LLM】从零开始训练大模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/636270877)
 - 【ChatGPT入门资料】见[zhoucz97/awesome-ChatGPT: ChatGPT相关资源汇总 (github.com)](https://github.com/zhoucz97/awesome-ChatGPT)
@@ -393,26 +394,34 @@
 
 
 
-
-
-
-
-
-### LLaMA
+## LLaMA
 
 - llama-chinese[FlagAlpha/Llama2-Chinese: Llama中文社区，最好的中文Llama大模型，完全开源可商用 (github.com)](https://github.com/FlagAlpha/Llama2-Chinese)
 - [hiyouga/LLaMA-Factory: Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) (github.com)](https://github.com/hiyouga/LLaMA-Factory/tree/main)
 
 
 
+### LLaMA-Factory
+
+- repo： [hiyouga/LLaMA-Factory: Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM) (github.com)](https://github.com/hiyouga/LLaMA-Factory/tree/main)
+
+- 入门教程：[LLaMA-Factory QuickStart - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/695287607)
+
+- 文档：[LLaMA Factory](https://llamafactory.readthedocs.io/zh-cn/latest/index.html)
+
+    
+
+
+
 ## CodeLLM
 
-- HumanEval: [代码生成模型评价指标 pass@k 的计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/653063532)
+- **Pass@K** of HumanEval: [代码生成模型评价指标 pass@k 的计算 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/653063532)
+- 2024.6月份代码大模型整理：[2024年6月118篇代码大模型论文最全整理 (qq.com)](https://mp.weixin.qq.com/s/LM5imirdOsOCinaFP3NZjg)
 - 
 
 
 
-# 5. 论文写作
+# 论文写作
 
 1. **Latex写论文**：https://www.overleaf.com/
 2. LaTeX教程：
@@ -440,9 +449,17 @@
 
 
 
+# DeepSeek-R1
+
+## 强化学习
+
+- PPO详解：[图解大模型RLHF系列之：人人都能看懂的PPO原理与源码解读 - 知乎](https://zhuanlan.zhihu.com/p/677607581)
+- [人人都能看懂的RL-PPO理论知识 - 知乎](https://zhuanlan.zhihu.com/p/7461863937)
+- [大模型中的强化学习——大语言模型研究05 | 柠檬CC](https://limoncc.com/post/c0a3be9c86b2b4cd/)
 
 
-# 6. 其他
+
+# 其他
 
 ## 算法题
 
@@ -530,12 +547,13 @@
 
 ## Docker
 
-- [datawhale组队学习Docker](https://github.com/datawhalechina/team-learning-program/tree/master/Docker)
 - [《Docker从入门到实战》](https://vuepress.mirror.docker-practice.com/)
+
 - [b站狂神说之Docker详细版教程](https://www.bilibili.com/video/BV1og4y1q7M4)
 
 - [datawhale组队学习Docker](https://github.com/datawhalechina/team-learning-program/tree/master/Docker)
-- [《Docker从入门到实战》](https://vuepress.mirror.docker-practice.com/)
+
+    
 
 ## CUDA编程
 
